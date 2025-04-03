@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const api = axios.create({
   // baseURL: 'http://localhost:5000/api',
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5000/api',
+  baseURL: 'https://a36c-168-90-7-156.ngrok-free.app',
 });
 
 // Função para obter tradução
